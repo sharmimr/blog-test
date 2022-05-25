@@ -64,7 +64,6 @@ const BlogComponent=()=>{
     const handleCloseModal = () => setShowModal(false);
     const handleShowModal = (e,id) => {
         setShowModal(true);
-        setPostId(id);
     }
 
     const deletePost=(id)=>{
